@@ -17,9 +17,9 @@ void PrintPossibleStrings(char* charactersSet, std::string currentString, const 
 
 int main()
 {
-	const int  characterSetSize				   = 2;
-	char	   charactersSet[characterSetSize] = {'A', 'B'};
-	int		   k							   = 3;
+	const int  characterSetSize			 = 2;
+	char charactersSet[characterSetSize] = {'A', 'B'};
+	int k							     = 3;
 	PrintPossibleStrings(charactersSet, "", characterSetSize, k);
 	return 0;
 }
